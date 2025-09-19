@@ -1,0 +1,164 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "title": "두꺼비집 가리개",
+      "description": "지저분했던 인터폰, 오브제가 될 수 있어요!",
+      "image": "https://prs.ohousecdn.com/apne2/any/uploads/productions/v1-375358101946496.jpg?w=480&h=480&c=c&webp=1",
+      "recommended": true,
+      "tags": ["오브제", "가리개", "유니크", "자체제작"]
+    },
+    {
+      "id": 2,
+      "title": "웁스 디퓨저 100ml",
+      "description": "향기를 담아 바쁜 일상을 리프레시 할 수 있도록 도와줘요.",
+      "image": "https://prs.ohousecdn.com/apne2/any/uploads/productions/images/v1-326449994440768.jpg?w=480&h=480&c=c&webp=1",
+      "recommended": false,
+      "tags": ["디퓨저", "인테리어", "실내방향제", "향기"]
+    },
+    {
+      "id": 3,
+      "title": "공기정화 화분",
+      "description": "귀여운 몬스터가 품은 공기정화 인테리어 화분",
+      "image": "https://prs.ohousecdn.com/apne2/any/uploads/productions/images/v1-198768721948800.jpg?w=480&h=480&c=c&webp=1",
+      "recommended": true,
+      "tags": ["가드닝", "인형", "화분", "인테리어"]
+    },
+    {
+      "id": 4,
+      "title": "빈티지 포스터",
+      "description": "레트로 감성이 물씬 풍기는 빈티지한 느낌의 포스터",
+      "image": "https://image.ohousecdn.com/i/bucketplace-v2-development/uploads/productions/images/168192615126361224.png?w=480&h=480&c=c&webp=1",
+      "recommended": false,
+      "tags": ["빈티지", "레트로", "포스터", "사진"]
+    },
+    {
+      "id": 5,
+      "title": "아트월 벽시계",
+      "description": "비정형 무소음 무타공 벽시계 인테리어 거실 아트월 레트로 모던 귀여운 빈티지 벽걸이 시계",
+      "image": "https://prs.ohousecdn.com/apne2/any/uploads/productions/v1-199513648201792.jpg?w=480&h=480&c=c&webp=1",
+      "recommended": true,
+      "tags": ["빈티지", "무소음", "벽시계", "거실꾸미기"]
+    },
+    {
+      "id": 6,
+      "title": "듀얼 모니터암",
+      "description": "PT 듀얼 모니터암 거치대",
+      "image": "https://prs.ohousecdn.com/apne2/any/uploads/productions/v1-299612184625216.jpg?w=480&h=480&c=c&webp=1",
+      "recommended": false,
+      "tags": ["듀얼모니터", "모니터거치대", "사무실"]
+    },
+    {
+      "id": 7,
+      "title": "구름 트레이",
+      "description": "악세사리 등을 보관하면서 인테리어 소품으로도 활용해보세요.",
+      "image": "https://prs.ohousecdn.com/apne2/any/uploads/productions/v1-392788820492416.png?w=480&h=480&c=c&webp=1",
+      "recommended": true,
+      "tags": ["트레이", "오브제", "소품트레이", "구름디자인"]
+    },
+    {
+      "id": 8,
+      "title": "열기구 라탄모빌",
+      "description": "감성적인 아이방 인테리어 소품으로 좋은 무드등 모빌",
+      "image": "https://image.ohousecdn.com/i/bucketplace-v2-development/uploads/openapi/1603581/1741850723669.jpg?w=480&h=480&c=c&webp=1",
+      "recommended": false,
+      "tags": ["모빌", "무드등", "아이방", "인테리어"]
+    },
+    {
+      "id": 9,
+      "title": "액막이 명태 도어벨",
+      "description": "행운을 불러다주는 액막이 명태 오너먼트 자석 도어벨",
+      "image": "https://prs.ohousecdn.com/apne2/any/uploads/productions/images/v1-351332339835010.jpg?w=480&h=480&c=c&webp=1",
+      "recommended": true,
+      "tags": ["도어벨", "액막이", "개업선물", "집들이"]
+    },
+    {
+      "id": 10,
+      "title": "엽서 캘린더",
+      "description": "2026 탁상 책상 미니 감성 엽서 캘린더 달력 + 우드거치대 세트",
+      "image": "https://image.ohousecdn.com/i/bucketplace-v2-development/uploads/productions/images/167627899300157617.jpg?w=480&h=480&c=c&webp=1",
+      "recommended": false,
+      "tags": ["엽서", "캘린더", "포스터", "액자"]
+    },
+    {
+      "id": 11,
+      "title": "감자튀김 클립홀더",
+      "description": "맥도리 감자튀김 클립홀더 자석 벽걸이 소품수납 마그넷 거치대",
+      "image": "https://prs.ohousecdn.com/apne2/any/uploads/productions/images/v1-271582066806784.jpg?w=480&h=480&c=c&webp=1",
+      "recommended": true,
+      "tags": ["냉장고자석", "소품수납함", "클립", "오브제"]
+    },
+    {
+      "id": 12,
+      "title": "큐브 향초",
+      "description": "오브제 구름 향초 인테리어 소품 집들이 선물 카페 실내 방향제",
+      "image": "https://prs.ohousecdn.com/apne2/any/uploads/productions/images/v1-195248000192576.jpg?w=480&h=480&c=c&webp=1",
+      "recommended": false,
+      "tags": ["캔들", "오브제", "향초", "방향제"]
+    },
+    {
+      "id": 13,
+      "title": "튤립 조화",
+      "description": "생화같은 튤립 조화 화병 세트 꽃다발 티테이블 인테리어 촬영 소품 디퓨저",
+      "image": "https://image.ohousecdn.com/i/bucketplace-v2-development/uploads/productions/164747533706495163.jpg?w=480&h=480&c=c&webp=1",
+      "recommended": true,
+      "tags": ["플라워", "봄", "조화", "테이블장식"]
+    },
+    {
+      "id": 14,
+      "title": "스톤 디퓨저",
+      "description": "스톤디퓨저 인테리어 오브제 아로마 방향제",
+      "image": "https://prs.ohousecdn.com/apne2/any/uploads/productions/images/v1-400593340637248.jpg?w=480&h=480&c=c&webp=1",
+      "recommended": false,
+      "tags": ["디퓨저", "아로마", "오브제", "집들이선물"]
+    },
+    {
+      "id": 15,
+      "title": "포스터 액자",
+      "description": "홈카페 감성 한스푼, 카페 인테리어 포스터",
+      "image": "https://prs.ohousecdn.com/apne2/any/uploads/productions/v1-356284464767104.jpg?w=480&h=480&c=c&webp=1",
+      "recommended": true,
+      "tags": ["포스터", "카페액자", "인테리어", "홈카페"]
+    },
+    {
+      "id": 16,
+      "title": "전화기 저금통",
+      "description": "레트로 전화기 저금통 빈티지 카페 귀여운 인테리어 장식 소품",
+      "image": "https://image.ohousecdn.com/i/bucketplace-v2-development/uploads/productions/images/167176403011840198.png?w=480&h=480&c=c&webp=1",
+      "recommended": false,
+      "tags": ["레트로", "저금통", "빈티지", "오브제"]
+    },
+    {
+      "id": 17,
+      "title": "쿠션 패딩 거울",
+      "description": "푹신푹신한 패딩 쿠션의 벽걸이 거울",
+      "image": "https://image.ohou.se/i/bucketplace-v2-development/uploads/productions/descriptions/url/168258673216960052.jpg",
+      "recommended": true,
+      "tags": ["거울", "쿠션", "인테리어", "오브제"]
+    },
+    {
+      "id": 18,
+      "title": "힙팟 미니화분",
+      "description": "베스트컬러 힙한 미니화분 힙팟 웨이브 질감팟 집들이 개업 승진선물",
+      "image": "https://prs.ohousecdn.com/apne2/any/uploads/productions/images/v1-355606594101376.jpg?w=480&h=480&c=c&webp=1",
+      "recommended": false,
+      "tags": ["미니화분", "팟커버", "승진선물", "화분커버"]
+    },
+    {
+      "id": 19,
+      "title": "레터링 스티커",
+      "description": "당신의 하루가 별보다 빛나길 감성 문구 레터링 스티커",
+      "image": "https://image.ohousecdn.com/i/bucketplace-v2-development/uploads/productions/images/167941725346791846.jpg?w=480&h=480&c=c&webp=1",
+      "recommended": true,
+      "tags": ["레터링", "스티커", "창문꾸미기", "현관문꾸미기"]
+    },
+    {
+      "id": 20,
+      "title": "벽난로 무드등",
+      "description": "LED 벽난로 불멍 불타는 무드등",
+      "image": "https://image.ohousecdn.com/i/bucketplace-v2-development/uploads/productions/166208898676160953.jpg?w=480&h=480&c=c&webp=1",
+      "recommended": false,
+      "tags": ["불멍", "LED", "무드등", "감성소품"]
+    }
+  ]
+}
