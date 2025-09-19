@@ -1,38 +1,242 @@
-.App {
+:root {
+  --color-base: rgba(0, 0, 0, 0.8);
+  --muted: #6b7280;
+  --brand1: #513719;
+  --brand2: #48810f;
+  --brand3: #e0ceb9;
+  --highlight: rgb(84, 66, 25);
+  --bg-base: #f5eae0;
+  --radius: 15px;
+  --shadow: 0 6px 20px rgba(0, 0, 0, 0.8);
+  --font-h2: 'GMarketSans';
+  --white: #fff;
+}
+
+.container {
+    width: min(1280px, 92%);
+    /* 화면이 넓을 때는 1280px , 모바일 - 92% */
+    margin: 0 auto;
+}
+
+.site-footer {
+    text-align: center;
+    padding: 20px;
+    color: var(--white);
+    background-color: var(--brand1);
+}
+
+/* header */
+header {
+    width: 100%;
+    background: var(--white);
+    margin: 0 auto;
+}
+
+header .logo {
+  font-family: var(--font-h2);
+  font-size: 30px;
+  text-align: center;
+  padding: 30px 0;
+}
+header .logo img {
+  max-width: 60px;
+  margin-right: 20px;
+  vertical-align: bottom;
+}
+header .logo span:nth-child(2) {
+  color: var(--brand1);
+}
+header .logo span:last-child {
+  color: var(--brand2);
+}
+header .gnb {
+  width: 100%;
+  background: var(--brand1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+header .gnb a {
+  font-size: 15px;
+  font-weight: 500;
+  color: var(--white);
+  padding: 15px;
+}
+/* hero-slide */
+.hero-slide > div {
+  margin-bottom: 30px;
+  max-width: 100%; height: 36vh;
+  overflow: hidden;
+}
+.hero-slide > div img {
+  max-width: 100%;
+}
+
+/* home.js */
+.contents {
+  width: 100%;
+  margin: 0 auto;
+}
+.intro-text {
+  text-align: center;
+  margin: 50px auto;
+  padding: 0 30px;
+}
+.intro-text h2 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: var(--brand1);
+}
+.intro-text > p {
+  display: inline-block;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 1.4;
+  color: var(--color-base);
+  background: var(--bg-base);
+  padding: 15px 20px;
+  border-radius: 15px;
+  margin-bottom: 20px;
+}
+
+.text-area {
+  margin-bottom: 60px;
+}
+.text-area > p {
+  font-size: 17px;
+  line-height: 1.4;
+}
+.text-area span {
+  font-weight: 600;
+  color: var(--brand2);
+}
+.recommendArea {
+  width: min(1280px, 92%);
+  margin: 0 auto;
+  border-top: 1px solid var(--brand3);
+}
+.recommendArea h2{
+  font-size: 24px;
+  margin: 60px 0 20px;
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.recommendArea h2 span {
+  color: var(--brand2);
+}
+.card {
+  width: min(1280px, 92%);
+  height: auto;
+  border-radius: 20px;
+  overflow: hidden;
+  background-color: var(--bg-base);
+  border: 2px solid var(--brand3);
+  margin: 0 auto 30px;
+}
+.card img {
+  width: 100%;
+  height: 100%;
+}
+.recom-text {
+  padding: 20px;
+}
+.recom-text h3 {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+.recom-text .tag {
+  font-size: 14px;
+  padding: 5px 10px;
+  background: var(--brand3);
+  border-radius: 50px;
+}
+.recom-text .text {
+  font-size: 16px;
+  line-height: 1.4;
+  margin: 15px 0 10px;
+  padding: 10px;
+  background: var(--white);
+  border-radius: 10px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+/* Collections */
+.contents {
+  width: min(1280px, 92%);
+  margin: 50px auto;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.contents h2 {
+  margin-bottom: 20px;
 }
 
-.App-link {
-  color: #61dafb;
+.title-area {
+  margin-bottom: 3cqb;
+}
+.title-area h2 {
+  margin-bottom: 10px;
+}
+.title-area small {
+  font-size: 15px;
+  background: var(--bg-base);
+  padding: 4px 8px;
+  border-radius: 8px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.meals-list {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.meals-card figure {
+  width: 100%;
+  border-radius: 20px;
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+.meals-card figure img {
+  max-width: 100%;
+}
+.meals-text {
+  text-align: center;
+}
+.meals-text h3 {
+  font-weight: 500;
+  padding: 10px 15px;
+  background: var(--brand1);
+  color: var(--white);
+  border-radius: 10px;
+}
+.meals-text .info {
+  position: relative;
+  margin-top: 10px;
+}
+.meals-text .info .tags {
+  display: block;
+  font-size: 14px;
+  padding: 5px 10px;
+  background: var(--bg-base);
+  border: 1px solid var(--brand3);
+}
+.meals-text .info .desc {
+  width: 100%;
+  font-size: 16px;
+  line-height: 1.4;
+  margin: 15px 0 10px;
+  padding: 10px;
+  background: var(--white);
+  border: 2px solid var(--brand3);
+  margin-bottom: 60px;
+}
+.meals-text .info .badeg {
+  position: absolute;
+  right: 20px; top: -420px;
+  font-weight: 500;
+  background: var(--brand2);
+  color: var(--white);
+  width: 50px; height: 50px;
+  border-radius: 50%;
+  line-height: 50px;
+
 }
