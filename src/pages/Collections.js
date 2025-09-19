@@ -7,7 +7,7 @@ const Collections = () => {
   const [showAll, setShowAll] = useState(false); // 더보기 버튼 클릭 상태에 따라 true/false
 
   useEffect(() => {
-    fetch('/db.json')
+    fetch(`${process.env.PUBLIC_URL}/db.json`)
     .then(r=>r.json()) // json형식으로 데이터 변환
     .then(data => setAll(data.products || [])) // json에서 collections 배열만 꺼내서 상태에 저장
     .catch(console.error);
